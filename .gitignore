@@ -8,5 +8,4 @@ pylint/
 venv/
 pip-selfcheck.json
 pyvenv.cfg
-github-start.bat
 *.bat

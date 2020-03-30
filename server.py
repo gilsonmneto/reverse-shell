@@ -34,7 +34,7 @@ def server():
     global ip
     global target
     s = socket.socket()
-    s.bind(("192.168.1.67", 8000))
+    s.bind(("localhost", 8000))
     s.listen(5)
     print("Listening for incoming connections...")
     target, ip = s.accept()

